@@ -33,14 +33,7 @@ The application consists of 5 services:
 - Created Dockerfiles for all backend services and frontend
 - Built Docker images locally
 
----
-
-### ✅ 2. Local Testing
-
-```bash
-docker compose up --build
-
-✅ 3. DockerHub
+✅ 2. DockerHub
 Images pushed to:
 ankitthakkar/user-service
 ankitthakkar/product-service
@@ -48,7 +41,7 @@ ankitthakkar/cart-service
 ankitthakkar/order-service
 ankitthakkar/frontend
 
-✅ 4. Infrastructure (Terraform)
+✅ 3. Infrastructure (Terraform)
 Provisioned:
 
 VPC
@@ -58,7 +51,7 @@ Route Table
 Security Group
 EC2 Instance (t3.micro)
 
-✅ 5. Deployment on EC2
+✅ 4. Deployment on EC2
 
 Installed Docker via user_data
 Created Docker network
